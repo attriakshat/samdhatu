@@ -1,0 +1,12 @@
+name: 'samdhatu-dev'
+
+services:
+  frontend:
+    image: 'samdhatu-dev:first-version'
+    volumes:
+      - /Users/akshatattri/Desktop/ayurveda-idea/:/app
+      - /app/node_modules
+    env_file:
+      - ./env/frontend-dev.env
+    ports:
+      - '3000:3000'
