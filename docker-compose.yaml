@@ -4,7 +4,7 @@ services:
   frontend:
     image: 'samdhatu-dev:first-version'
     volumes:
-      - /Users/akshatattri/Desktop/ayurveda-idea/:/app
+      - /Users/akshatattri/Desktop/samdhatu/:/app
       - /app/node_modules
     env_file:
       - ./env/frontend-dev.env
